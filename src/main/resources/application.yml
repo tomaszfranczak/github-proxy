@@ -1,0 +1,8 @@
+server:
+  error:
+    include-message: always
+
+github:
+  host:
+    reposUrl: https://api.github.com/users/%s/repos
+    branchesUrl: https://api.github.com/repos/%s/{name}%s
