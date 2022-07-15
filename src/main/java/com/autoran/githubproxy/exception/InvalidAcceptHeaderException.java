@@ -1,7 +1,10 @@
 package com.autoran.githubproxy.exception;
 
-import lombok.NoArgsConstructor;
-
-@NoArgsConstructor
 public class InvalidAcceptHeaderException extends RuntimeException {
+
+    private static final String MESSAGE = "Incorrect accept header value.";
+
+    public InvalidAcceptHeaderException() {
+        super(MESSAGE);
+    }
 }

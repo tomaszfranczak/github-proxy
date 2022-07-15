@@ -9,8 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Branch {
+public class Commit {
 
-    private String name;
-    private Commit commit;
+    private String sha;
 }

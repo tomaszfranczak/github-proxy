@@ -1,10 +1,12 @@
+
+
 server:
   error:
     include-message: always
 
 github:
-  reposUrl: https://api.github.com/users/%s/repos
-  branchesUrl: https://api.github.com/repos/%s/%s/branches
+  reposUrl: https://test.test/users/%s/repos
+  branchesUrl: https://test.test/repos/%s/%s/branches
 
 spring:
   mvc:

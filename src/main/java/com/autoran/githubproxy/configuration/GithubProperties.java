@@ -1,11 +1,10 @@
 package com.autoran.githubproxy.configuration;
 
 import lombok.AllArgsConstructor;
-
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.ConstructorBinding;
 
-@ConfigurationProperties(prefix = "github.host")
+@ConfigurationProperties(prefix = "github")
 @ConstructorBinding
 @AllArgsConstructor
 public class GithubProperties {
